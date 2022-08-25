@@ -1,0 +1,22 @@
+public class coche {
+  public static void main (String[] args) {
+    int sumap = sumarlastres(1,2,3);
+    System.out.println(sumap);
+    coche puertas = new coche();
+    puertas.sumarPuertas();
+    puertas.sumarPuertas();
+    System.out.println(puertas.sumarPuertas);
+
+  };
+  public static int sumarlastres(int n1, int n2, int n3){
+    return n1+n2+n3
+  }
+class coche{
+    public int puertas = 3;
+    public void sumarPuertas(){
+      this.puertas++;
+    }
+}
+
+
+}
